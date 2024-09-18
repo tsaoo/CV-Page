@@ -5,6 +5,8 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
+  - /about/
+  - /about.html
 ---
 
 {% include base_path %}
@@ -56,11 +58,10 @@ redirect_from:
 
 # Selected Projects
 ## 1kW Bidirectional Isolated DC/DC Converter
-
 <div style="display: flex; justify-content: space-between;">
-    <Image src={images/MultistageCLLC-1.png} alt="Image 1" style="height: auto; width: 32%; object-fit: contain;"/>
-    <Image src={images/MultistageCLLC-2.png} alt="Image 2" style="height: auto; width: 32%; object-fit: contain;"/>
-    <Image src={images/MultistageCLLC-3.png} alt="Image 3" style="height: auto; width: 32%; object-fit: contain;"/>
+    <img src="/images/MultistageCLLC-1.png" alt="Image 1" style="height: auto; width: 32%; object-fit: contain;"/>
+    <img src="/images/MultistageCLLC-2.png" alt="Image 2" style="height: auto; width: 32%; object-fit: contain;"/>
+    <img src="/images/MultistageCLLC-3.png" alt="Image 3" style="height: auto; width: 32%; object-fit: contain;"/>
 </div>
 
 - Designed a 1kW bidirectional isolated DC/DC Converter, with 36~60V on the LV side and 400V on the HV side. The device achieves peak efficiency of 94% in experiment. GaN HEMT and planar transformer are used to improve power density, allowing for portable size with the thickness low as 25mm. Experiment shows that the converter is capable of driving 500W load with natural cooling at room temperature, or 1kW load with an extra 10W forced cooling.
@@ -71,8 +72,8 @@ redirect_from:
 ## Smart Stethoscope & Electrocardiogram Detector
 
 <div style="display: flex; justify-content: space-between;">
-    <Image src={images/heartsound-1.jpg} alt="Image 1" style="height: auto; width: 45%; object-fit: contain;"/>
-    <Image src={images/heartsound-2.jpg} alt="Image 2" style="height: auto; width: 45%; object-fit: contain;"/>
+    <img src="/images/heartsound-1.jpg" alt="Image 1" style="height: auto; width: 45%; object-fit: contain;"/>
+    <img src="/images/heartsound-2.jpg" alt="Image 2" style="height: auto; width: 45%; object-fit: contain;"/>
 </div>
 
 
