@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 # Education
-**B.S.** in Electrical & Information Engineering, Zhejiang University
+**B.S.** in Electronic Information Engineering, Zhejiang University
 
 # Honor
 <table cellpadding="10" cellspacing="0" width="100%" style="font-size: 16px;">
